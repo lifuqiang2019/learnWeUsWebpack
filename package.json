@@ -1,0 +1,38 @@
+{
+  "name": "learnwebpackweus",
+  "version": "1.0.0",
+  "description": "webpack is so greate !!",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifuqiang2019/learnWeUsWebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifuqiang2019/learnWeUsWebpack/issues"
+  },
+  "homepage": "https://github.com/lifuqiang2019/learnWeUsWebpack#readme"
+}
