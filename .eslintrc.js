@@ -1,10 +1,10 @@
 module.exports = {
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
     "env": {
         "browser": true,
         "es6": true
     },
-    "extends": ["airbnb"],
+    "extends": ["airbnb", "prettier/@typescript-eslint",  "prettier", "prettier/react"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -21,9 +21,11 @@ module.exports = {
     "plugins": [
         "react",
         "jsx-a11y",
+        "@typescript-eslint",
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }
 };
